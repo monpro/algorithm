@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8be886a0-8a98-44c3-8275-c57ba050e076" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/python_version/tag/offer/EntryNodeOfLoop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_version/tag/offer/FindKthToTail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_version/tag/offer/ReverseList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_version/tag/offer/mergeSortedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/algorithm$cut_rope.coverage" NAME="cut_rope Coverage Results" MODIFIED="1544663502821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$next_node_binary_tree.coverage" NAME="next_node_binary_tree Coverage Results" MODIFIED="1544658686250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$FindKthToTail.coverage" NAME="FindKthToTail Coverage Results" MODIFIED="1544771597425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_version/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$power.coverage" NAME="power Coverage Results" MODIFIED="1544668000208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$path_in_matrix.coverage" NAME="path_in_matrix Coverage Results" MODIFIED="1544659611195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$print1ToMaxOfDigits.coverage" NAME="print1ToMaxOfDigits Coverage Results" MODIFIED="1544669414171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$one_in_binary.coverage" NAME="one_in_binary Coverage Results" MODIFIED="1544665314699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$merge_intervals.coverage" NAME="merge_intervals Coverage Results" MODIFIED="1544167241723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/google" />
+    <SUITE FILE_PATH="coverage/algorithm$EntryNodeOfLoop.coverage" NAME="EntryNodeOfLoop Coverage Results" MODIFIED="1545031105168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_version/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$ReverseList.coverage" NAME="ReverseList Coverage Results" MODIFIED="1545032673535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_version/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$robot_move_in_matrix.coverage" NAME="robot_move_in_matrix Coverage Results" MODIFIED="1544663232661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$reorderArray.coverage" NAME="reorderArray Coverage Results" MODIFIED="1544769027060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_version/tag/offer" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_version/tag/offer/reorderArray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_version/tag/offer/FindKthToTail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="21" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_version/tag/offer/EntryNodeOfLoop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_version/tag/offer/ReverseList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="22" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_version/tag/offer/mergeSortedList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>state_dim</find>
+      <find>target</find>
+      <find>replay_buffer</find>
+      <find>update_replay_buffer</find>
+      <find>get_train_batch</find>
+      <find>action_dim</find>
+      <find>q_selected_action</find>
+      <find>explore</find>
+      <find>reward</find>
+      <find>lt</find>
+      <find>rst</find>
+      <find>dir</find>
+      <find>direction</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/binary_tree-master/subtree-with-maximum-average.py" />
+        <option value="$PROJECT_DIR$/java_version/bfs/TestThread.java" />
+        <option value="$PROJECT_DIR$/tag/google/count-and-say.py" />
+        <option value="$PROJECT_DIR$/tag/exercise.py" />
+        <option value="$PROJECT_DIR$/tag/exercise/problem_3.py" />
+        <option value="$PROJECT_DIR$/tag/exercise/problem_2.py" />
+        <option value="$PROJECT_DIR$/tag/exercise/problem_1.py" />
+        <option value="$PROJECT_DIR$/tag/google/word_break.py" />
+        <option value="$PROJECT_DIR$/tag/google/Fraction to Recurring Decimal.py" />
+        <option value="$PROJECT_DIR$/tag/microsoft/search-in-rotated-sorted-array.py" />
+        <option value="$PROJECT_DIR$/tag/microsoft/string-to-integer-atoi.py" />
+        <option value="$PROJECT_DIR$/binary_tree-master/balanced-binary-tree.py" />
+        <option value="$PROJECT_DIR$/binary_tree-master/binary-tree-inorder-traversal.py" />
+        <option value="$PROJECT_DIR$/tag/google/cloneGraph.py" />
+        <option value="$PROJECT_DIR$/java_version/dfs/combination_sum.java" />
+        <option value="$PROJECT_DIR$/tag/microsoft/combination_sum.py" />
+        <option value="$PROJECT_DIR$/tag/microsoft/palindrome-partitioning.py" />
+        <option value="$PROJECT_DIR$/tag/microsoft/rotate-image.py" />
+        <option value="$PROJECT_DIR$/tag/google/implement Trie.py" />
+        <option value="$PROJECT_DIR$/tag/google/fruit_into_baskets.py" />
+        <option value="$PROJECT_DIR$/tag/google/ListNode.py" />
+        <option value="$PROJECT_DIR$/tag/google/hasCycle.py" />
+        <option value="$PROJECT_DIR$/tag/google/best_time_to_buy.py" />
+        <option value="$PROJECT_DIR$/tag/google/numUniqueEmail.py" />
+        <option value="$PROJECT_DIR$/tag/google/merge_intervals.py" />
+        <option value="$PROJECT_DIR$/tag/google/merge_sorted_array.py" />
+        <option value="$PROJECT_DIR$/graph-master/number_of_islands.py" />
+        <option value="$PROJECT_DIR$/tag/google/max_area_of_island.py" />
+        <option value="$PROJECT_DIR$/tag/google/friend_circles.py" />
+        <option value="$PROJECT_DIR$/tag/offer/duplicate_number_in_array.py" />
+        <option value="$PROJECT_DIR$/tag/offer/find-the-duplicate-number.py" />
+        <option value="$PROJECT_DIR$/tag/offer/find_number_in_2d_matrix.py" />
+        <option value="$PROJECT_DIR$/tag/offer/end_to_start_array_list.py" />
+        <option value="$PROJECT_DIR$/tag/offer/construct_binary_tree.py" />
+        <option value="$PROJECT_DIR$/tag/offer/queue.py" />
+        <option value="$PROJECT_DIR$/tag/offer/next_node_binary_tree.py" />
+        <option value="$PROJECT_DIR$/tag/offer/min_num_in_rotated_array.py" />
+        <option value="$PROJECT_DIR$/tag/offer/path_in_matrix.py" />
+        <option value="$PROJECT_DIR$/tag/offer/robot_move_in_matrix.py" />
+        <option value="$PROJECT_DIR$/tag/offer/cut_rope.py" />
+        <option value="$PROJECT_DIR$/tag/offer/one_in_binary.py" />
+        <option value="$PROJECT_DIR$/tag/offer/power.py" />
+        <option value="$PROJECT_DIR$/tag/offer/print1ToMaxOfDigits.py" />
+        <option value="$PROJECT_DIR$/tag/offer/deleteDuplicate.py" />
+        <option value="$PROJECT_DIR$/tag/offer/regex.py" />
+        <option value="$PROJECT_DIR$/tag/offer/isNumeric.py" />
+        <option value="$PROJECT_DIR$/python_version/tag/offer/reorderArray.py" />
+        <option value="$PROJECT_DIR$/python_version/tag/offer/FindKthToTail.py" />
+        <option value="$PROJECT_DIR$/python_version/tag/offer/EntryNodeOfLoop.py" />
+        <option value="$PROJECT_DIR$/python_version/tag/offer/ReverseList.py" />
+        <option value="$PROJECT_DIR$/python_version/tag/offer/mergeSortedList.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="850" />
+    <option name="width" value="830" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="python_version" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="python_version" type="462c0819:PsiDirectoryNode" />
+              <item name="tag" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="python_version" type="462c0819:PsiDirectoryNode" />
+              <item name="tag" type="462c0819:PsiDirectoryNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git_warehouse\algorithm\tag" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git_warehouse\algorithm\java_version\double_pointer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.ReverseList">
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="algorithm" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="EntryNodeOfLoop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_version/tag/offer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_version/tag/offer/EntryNodeOfLoop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FindKthToTail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_version/tag/offer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_version/tag/offer/FindKthToTail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ReverseList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_version/tag/offer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_version/tag/offer/ReverseList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="print1ToMaxOfDigits" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tag/offer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tag/offer/print1ToMaxOfDigits.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reorderArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_version/tag/offer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_version/tag/offer/reorderArray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.print1ToMaxOfDigits" />
+      <item itemvalue="Python.reorderArray" />
+      <item itemvalue="Python.FindKthToTail" />
+      <item itemvalue="Python.EntryNodeOfLoop" />
+      <item itemvalue="Python.ReverseList" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ReverseList" />
+        <item itemvalue="Python.EntryNodeOfLoop" />
+        <item itemvalue="Python.FindKthToTail" />
+        <item itemvalue="Python.reorderArray" />
+        <item itemvalue="Python.print1ToMaxOfDigits" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8be886a0-8a98-44c3-8275-c57ba050e076" name="Default" comment="" />
+      <created>1536799041494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536799041494</updated>
+      <workItem from="1536799190401" duration="158000" />
+      <workItem from="1538486389592" duration="66000" />
+      <workItem from="1540802791808" duration="101000" />
+      <workItem from="1540884046257" duration="8950000" />
+      <workItem from="1540953252395" duration="5905000" />
+      <workItem from="1541057503031" duration="3829000" />
+      <workItem from="1541392459458" duration="229000" />
+      <workItem from="1541492696963" duration="1236000" />
+      <workItem from="1541562631377" duration="1892000" />
+      <workItem from="1541742041137" duration="220000" />
+      <workItem from="1543366422360" duration="23000" />
+      <workItem from="1544167059988" duration="226000" />
+      <workItem from="1544167296705" duration="6620000" />
+      <workItem from="1544228691823" duration="8479000" />
+      <workItem from="1544342192866" duration="7115000" />
+      <workItem from="1544359368513" duration="552000" />
+      <workItem from="1544402959163" duration="688000" />
+      <workItem from="1544409260569" duration="427000" />
+      <workItem from="1544656685522" duration="13370000" />
+      <workItem from="1544759369198" duration="8548000" />
+      <workItem from="1545029758828" duration="4236000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="72870000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="850" y="0" width="830" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.038071066" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37653062" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298969" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.03199052" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3298969" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3295699" />
+      <window_info anchor="right" id="R Packages" order="10" />
+      <window_info anchor="right" id="SciView" order="11" />
+      <window_info anchor="right" id="R Graphics" order="12" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/intersection_of_two_arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2773">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/reverse_linked_list.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="944">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/sort_list.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/reverse_linked_list_ii.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tag/google/ListNode.py" />
+    <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/reverse_list.py" />
+    <entry file="file://$PROJECT_DIR$/tag/microsoft/rotate-image.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/implement Trie.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/fruit_into_baskets.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/merge_intervals.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/numUniqueEmail.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/merge.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/merge_sorted_array.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/max_area_of_island.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/friend_circles.py" />
+    <entry file="file://$PROJECT_DIR$/graph-master/number_of_islands.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/hasCycle.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/best_time_to_buy.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/lengthOfLongestSubstring.py" />
+    <entry file="file://$PROJECT_DIR$/java_version/bfs/Union_find_Graph_valid_tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swordOffer/base_component.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/duplicate_number_in_array.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/find-the-duplicate-number.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/find_number_in_2d_matrix.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/construct_binary_tree.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/end_to_start_array_list.py" />
+    <entry file="file://$PROJECT_DIR$/swordOffer/PrintMinNumber.py" />
+    <entry file="file://$PROJECT_DIR$/swordOffer/frog_jump.py" />
+    <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/partition_list.py" />
+    <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/README.md" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/queue.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/next_node_binary_tree.py" />
+    <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/hasCycle.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/min_num_in_rotated_array.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/path_in_matrix.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/robot_move_in_matrix.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/cut_rope.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/one_in_binary.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/power.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/print1ToMaxOfDigits.py" />
+    <entry file="file://$PROJECT_DIR$/swordOffer/stack_im.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/deleteDuplicate.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/regex.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/isNumeric.py" />
+    <entry file="file://$PROJECT_DIR$/python_version/tag/offer/FindKthToTail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_version/tag/offer/EntryNodeOfLoop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_version/tag/offer/ReverseList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_version/tag/offer/reorderArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_version/tag/offer/mergeSortedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>algorithm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
