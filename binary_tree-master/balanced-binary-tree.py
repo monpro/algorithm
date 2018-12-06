@@ -3,7 +3,7 @@ class Solution:
     @param root: The root of binary tree.
     @return: True if this Binary tree is Balanced, or false.
     """
-
+    #divide and conquer 分而治之
     def isBalanced(self, root):
         # write your code here
         if root is None:

@@ -37,7 +37,7 @@ public class combination_sum {
         for(int i = position; i < candidates.length;i++){
             //reduce duplicates because candidates[i - 1] have been put into recursive
             if(i > 0 && candidates[i] == candidates[i -1]){
-                continue;
+
             }
             subset.add(candidates[i]);
             helper(results, new ArrayList<>(subset), target - candidates[i], candidates, i);

@@ -11,6 +11,7 @@ class Solution:
     """
     @param root: A Tree
     @return: Inorder in ArrayList which contains node values.
+    inorder--- left, node, right
     """
 
     def inorderTraversal(self, root):
