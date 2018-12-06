@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8be886a0-8a98-44c3-8275-c57ba050e076" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tag/google/cloneGraph.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tag/google/implement Trie.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tag/microsoft/combination_sum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tag/microsoft/palindrome-partitioning.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tag/google/fruit_into_baskets.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binary_tree-master/balanced-binary-tree.py" afterPath="$PROJECT_DIR$/binary_tree-master/balanced-binary-tree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binary_tree-master/binary-tree-inorder-traversal.py" afterPath="$PROJECT_DIR$/binary_tree-master/binary-tree-inorder-traversal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_version/dfs/combination_sum.java" afterPath="$PROJECT_DIR$/java_version/dfs/combination_sum.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,16 +23,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="RandomListNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/RandomListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="reverse_linked_list.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/reverse_linked_list.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,11 +103,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="implement Trie.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="implement Trie.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tag/google/implement Trie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="113" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="554">
+              <caret line="110" column="38" lean-forward="true" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fruit_into_baskets.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tag/google/fruit_into_baskets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="733">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -165,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tag/google/generateParenthesis.py" />
         <option value="$PROJECT_DIR$/tag/google/isValidII.py" />
         <option value="$PROJECT_DIR$/tag/google/generateParenthesisII.py" />
         <option value="$PROJECT_DIR$/tag/google/nextPermutation.py" />
@@ -216,6 +209,7 @@
         <option value="$PROJECT_DIR$/tag/microsoft/palindrome-partitioning.py" />
         <option value="$PROJECT_DIR$/tag/microsoft/rotate-image.py" />
         <option value="$PROJECT_DIR$/tag/google/implement Trie.py" />
+        <option value="$PROJECT_DIR$/tag/google/fruit_into_baskets.py" />
       </list>
     </option>
   </component>
@@ -791,13 +785,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tag/google/Fraction to Recurring Decimal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tag/google/merge_intervals.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="767">
@@ -1153,8 +1140,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tag/google/implement Trie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state relative-caret-position="554">
+          <caret line="110" column="38" lean-forward="true" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tag/google/fruit_into_baskets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding />
         </state>
       </provider>
