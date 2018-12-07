@@ -10,6 +10,7 @@ class Solution:
         email_map = dict()
         for i in emails:
             email_map[self.helper(i)] = 0
+
         return len(email_map)
 
     def helper(self,email):

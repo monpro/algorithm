@@ -1,35 +1,41 @@
 class Solution:
-    """
-    @param grid: a boolean 2D matrix
-    @return: an integer
-    """
-
-    def numIslands(self, grid):
-        # write your code here
-        # use bfs to search the grid
-
-        if len(grid) == 0:
+    def maxAreaOfIsland(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
+        if len(grid) == 0 or len(grid[0]) == 0:
             return 0
-
-        delat = [[0, 1], [1, 0], [0, -1], [-1, 0]]
-        row, column = len(grid), len(grid[0])
+        #BFS
+        direction = [
+            [0,1],
+            [1,0],
+            [0,-1],
+            [-1,0]
+        ]
+        stack = []
         result = 0
-
-        for i in range(row):
-            for j in range(column):
+        max_result = 0
+        for i in range(len(grid)):
+            for j in range(len(grid[i])):
                 if grid[i][j] == 1:
-                    self.bfs(grid, i, j, delat)
-                    result += 1
+                    stack.append([i,j])
+                    grid[i][j] = 0
+                    while len(stack) > 0:
+                        node = stack.pop()
+                        result += 1
+                        for direc in direction:
+                            if self.in_bound(node,direc,grid):
+                                stack.append([node[0] + direc[0], node[1] + direc[1]])
+                                grid[node[0] + direc[0]][node[1]+direc[1]] = 0
+                    max_result = max(max_result, result)
+                    result = 0
+        return max_result
 
-        return result
 
-    def bfs(self, grid, i, j, delat):
-        queue = []
-        queue.append((i, j))
-        grid[i][j] = 0
-        while len(queue) > 0:
-            x, y = queue.pop(0)
-            for dx, dy in delat:
-                if 0 <= dx + x < len(grid) and 0 <= dy + y < len(grid[0]) and grid[dx + x][dy + y] == 1:
-                    grid[dx + x][dy + y] = 0
-                    queue.append((dx + x, dy + y))
+    def in_bound(self,node,direction,grid):
+        row = node[0] + direction[0]
+        column = node[1] + direction[1]
+        return row < len(grid) and row >= 0 and column < len(grid[0]) \
+               and column >= 0 and grid[row][column] == 1
+
