@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8be886a0-8a98-44c3-8275-c57ba050e076" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/tag/offer/min_num_in_rotated_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tag/offer/path_in_matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tag/offer/robot_move_in_matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tag/offer/cut_rope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tag/offer/one_in_binary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/offer/next_node_binary_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/tag/offer/next_node_binary_tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/algorithm$cut_rope.coverage" NAME="cut_rope Coverage Results" MODIFIED="1544663502821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
     <SUITE FILE_PATH="coverage/algorithm$next_node_binary_tree.coverage" NAME="next_node_binary_tree Coverage Results" MODIFIED="1544658686250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
     <SUITE FILE_PATH="coverage/algorithm$path_in_matrix.coverage" NAME="path_in_matrix Coverage Results" MODIFIED="1544659611195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$one_in_binary.coverage" NAME="one_in_binary Coverage Results" MODIFIED="1544665314699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
     <SUITE FILE_PATH="coverage/algorithm$merge_intervals.coverage" NAME="merge_intervals Coverage Results" MODIFIED="1544167241723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/google" />
-    <SUITE FILE_PATH="coverage/algorithm$robot_move_in_matrix.coverage" NAME="robot_move_in_matrix Coverage Results" MODIFIED="1544662203524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$robot_move_in_matrix.coverage" NAME="robot_move_in_matrix Coverage Results" MODIFIED="1544663232661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -26,24 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swordOffer/frog_jump.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/hasCycle.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
               <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/partition_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -94,11 +80,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tag/offer/robot_move_in_matrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+            <state relative-caret-position="515">
+              <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tag/offer/cut_rope.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tag/offer/one_in_binary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -150,8 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java_version/double_pointer/two_sum_unique_pairs.java" />
-        <option value="$PROJECT_DIR$/java_version/double_pointer/three_sum.java" />
         <option value="$PROJECT_DIR$/java_version/double_pointer/two_sum_less_than_or_equal_to_target.java" />
         <option value="$PROJECT_DIR$/bfs/lengthLongestPath.java" />
         <option value="$PROJECT_DIR$/java_version/double_pointer/triangle_count.java" />
@@ -201,6 +203,8 @@
         <option value="$PROJECT_DIR$/tag/offer/min_num_in_rotated_array.py" />
         <option value="$PROJECT_DIR$/tag/offer/path_in_matrix.py" />
         <option value="$PROJECT_DIR$/tag/offer/robot_move_in_matrix.py" />
+        <option value="$PROJECT_DIR$/tag/offer/cut_rope.py" />
+        <option value="$PROJECT_DIR$/tag/offer/one_in_binary.py" />
       </list>
     </option>
   </component>
@@ -303,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.robot_move_in_matrix">
+  <component name="RunManager" selected="Python.one_in_binary">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,7 +327,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="merge_intervals" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cut_rope" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,12 +335,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tag/google" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tag/offer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tag/google/merge_intervals.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tag/offer/cut_rope.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,6 +371,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="one_in_binary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tag/offer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tag/offer/one_in_binary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="path_in_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -381,28 +407,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tag/offer/path_in_matrix.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="problem_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tag/exercise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tag/exercise/problem_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -434,18 +438,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.problem_3" />
-      <item itemvalue="Python.merge_intervals" />
       <item itemvalue="Python.next_node_binary_tree" />
       <item itemvalue="Python.path_in_matrix" />
       <item itemvalue="Python.robot_move_in_matrix" />
+      <item itemvalue="Python.cut_rope" />
+      <item itemvalue="Python.one_in_binary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.one_in_binary" />
+        <item itemvalue="Python.cut_rope" />
         <item itemvalue="Python.robot_move_in_matrix" />
         <item itemvalue="Python.path_in_matrix" />
         <item itemvalue="Python.next_node_binary_tree" />
-        <item itemvalue="Python.merge_intervals" />
       </list>
     </recent_temporary>
   </component>
@@ -477,12 +482,12 @@
       <workItem from="1544359368513" duration="552000" />
       <workItem from="1544402959163" duration="688000" />
       <workItem from="1544409260569" duration="427000" />
-      <workItem from="1544656685522" duration="5296000" />
+      <workItem from="1544656685522" duration="7823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52012000" />
+    <option name="totallyTimeSpent" value="54539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="850" y="0" width="830" height="1050" extended-state="0" />
@@ -528,16 +533,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java_version/dfs/permutations_II.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_version/dfs/palindrome_partitioning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tag/microsoft/combination_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -832,8 +827,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tag/offer/robot_move_in_matrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="515">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tag/offer/cut_rope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tag/offer/one_in_binary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
