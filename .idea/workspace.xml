@@ -2,9 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8be886a0-8a98-44c3-8275-c57ba050e076" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/tag/offer/isNumeric.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tag/offer/regex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/Serialize and deserialize of binary tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/Zigzag_level_order.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/balanced-binary-tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/binary-tree-inorder-traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/binary-tree-level-order-traversal-ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/binary-tree-level-order-traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/binary-tree-paths.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/binary-tree-postorder-traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/binary-tree-preorder-traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/convert binary tree to linked listpy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/maximum-depth-of-binary-tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/minimum-subtree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree-master/subtree-with-maximum-average.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-master/course_schedule_bfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-master/course_schedule_dfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-master/course_schedule_result.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-master/deep_copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-master/number_of_islands.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-master/search_graph_node.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-master/sequence_construction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-master/toplogical_sort_bfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-master/topological_dfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-master/valid_tree_in_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-master/zombie_in_a_matrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list_structure_algorithm-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list_structure_algorithm-master/deep_copy_random_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list_structure_algorithm-master/default_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list_structure_algorithm-master/hasCycle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list_structure_algorithm-master/merge_sort_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list_structure_algorithm-master/merge_sorted_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list_structure_algorithm-master/partition_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list_structure_algorithm-master/reorder_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list_structure_algorithm-master/reverse_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list_structure_algorithm-master/swap_node.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lru-lfu-implemented-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lru-lfu-implemented-master/lfu_version_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lru-lfu-implemented-master/lfu_version_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_array_structure-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_array_structure-master/interleaving-positive-and-negative-numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_array_structure-master/is_palindrome.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_array_structure-master/move_zeros.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_array_structure-master/partition_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_array_structure-master/quick select.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_array_structure-master/remove_duplicate_numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_array_structure-master/rotate_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_array_structure-master/sort_colors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_array_structure-master/subarray_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_array_structure-master/window_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_wheel/2sum_unique_pairs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_wheel/3 SUM.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_wheel/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_wheel/partition_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_wheel/triangle_count.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_wheel/two sum data structure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_wheel/two_pointers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer_wheel/two_sum_multiple_problems.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/.idea/swordOffer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/FindContinuousSequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/FindFirstCommonNode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/FindNumsAppearOnce.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/FirstNotRepeatingChar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/GetNumberOfK.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/InversePairs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/IsBalanced_Solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/IsPopOrder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/LeftRotateString.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/PrintMinNumber.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/ReverseSentence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/TreeDepth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/base_component.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/binary_search_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/cloneList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/convert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/digit-calculation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/fib_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/findKthToTail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/findPath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/frog_jump.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/frog_jump_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/getKnumber.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/getUglyNumber.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/hasSubtree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/isMatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/letterCombinations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/longest_possible_string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/merge_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/mirror_binary_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/moreThanHalfNum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/permutation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/printFromTopToBottom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/printMatrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/question2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/reOrderArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/rect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/stack_im.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/verifySequenceOfBST.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swordOffer/wildCardMatching.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +193,7 @@
         <entry file="file://$PROJECT_DIR$/tag/offer/regex.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -102,17 +201,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tag/offer/isNumeric.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" lean-forward="true" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swordOffer/stack_im.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
+            <state>
+              <caret selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -229,11 +319,6 @@
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="graph-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="java_version" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,11 +326,6 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="java_version" type="462c0819:PsiDirectoryNode" />
               <item name="Linked_List_Array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="linked-list_structure_algorithm-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -473,12 +553,12 @@
       <workItem from="1544402959163" duration="688000" />
       <workItem from="1544409260569" duration="427000" />
       <workItem from="1544656685522" duration="13370000" />
-      <workItem from="1544759369198" duration="4529000" />
+      <workItem from="1544759369198" duration="4803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64615000" />
+    <option name="totallyTimeSpent" value="64889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="850" y="0" width="830" height="1050" extended-state="0" />
@@ -830,14 +910,14 @@
     <entry file="file://$PROJECT_DIR$/tag/offer/regex.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tag/offer/isNumeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-end-line="34" />
+        <state>
+          <caret selection-end-line="34" />
         </state>
       </provider>
     </entry>
