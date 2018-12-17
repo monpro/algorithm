@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8be886a0-8a98-44c3-8275-c57ba050e076" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python_version/tag/offer/reorderArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_version/tag/offer/EntryNodeOfLoop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_version/tag/offer/FindKthToTail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_version/tag/offer/ReverseList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_version/tag/offer/mergeSortedList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +17,14 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/algorithm$cut_rope.coverage" NAME="cut_rope Coverage Results" MODIFIED="1544663502821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
     <SUITE FILE_PATH="coverage/algorithm$next_node_binary_tree.coverage" NAME="next_node_binary_tree Coverage Results" MODIFIED="1544658686250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$FindKthToTail.coverage" NAME="FindKthToTail Coverage Results" MODIFIED="1544771597425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_version/tag/offer" />
     <SUITE FILE_PATH="coverage/algorithm$power.coverage" NAME="power Coverage Results" MODIFIED="1544668000208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
     <SUITE FILE_PATH="coverage/algorithm$path_in_matrix.coverage" NAME="path_in_matrix Coverage Results" MODIFIED="1544659611195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
     <SUITE FILE_PATH="coverage/algorithm$print1ToMaxOfDigits.coverage" NAME="print1ToMaxOfDigits Coverage Results" MODIFIED="1544669414171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
     <SUITE FILE_PATH="coverage/algorithm$one_in_binary.coverage" NAME="one_in_binary Coverage Results" MODIFIED="1544665314699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
     <SUITE FILE_PATH="coverage/algorithm$merge_intervals.coverage" NAME="merge_intervals Coverage Results" MODIFIED="1544167241723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/google" />
+    <SUITE FILE_PATH="coverage/algorithm$EntryNodeOfLoop.coverage" NAME="EntryNodeOfLoop Coverage Results" MODIFIED="1545031105168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_version/tag/offer" />
+    <SUITE FILE_PATH="coverage/algorithm$ReverseList.coverage" NAME="ReverseList Coverage Results" MODIFIED="1545032673535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_version/tag/offer" />
     <SUITE FILE_PATH="coverage/algorithm$robot_move_in_matrix.coverage" NAME="robot_move_in_matrix Coverage Results" MODIFIED="1544663232661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tag/offer" />
     <SUITE FILE_PATH="coverage/algorithm$reorderArray.coverage" NAME="reorderArray Coverage Results" MODIFIED="1544769027060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_version/tag/offer" />
   </component>
@@ -27,11 +33,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_version/tag/offer/reorderArray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            <state relative-caret-position="495">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_version/tag/offer/FindKthToTail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="21" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_version/tag/offer/EntryNodeOfLoop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_version/tag/offer/ReverseList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="22" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_version/tag/offer/mergeSortedList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -74,10 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/binary_tree-master/binary-tree-paths.py" />
-        <option value="$PROJECT_DIR$/binary_tree-master/binary-tree-preorder-traversal.py" />
-        <option value="$PROJECT_DIR$/binary_tree-master/binary-tree-postorder-traversal.py" />
-        <option value="$PROJECT_DIR$/binary_tree-master/minimum-subtree.py" />
         <option value="$PROJECT_DIR$/binary_tree-master/subtree-with-maximum-average.py" />
         <option value="$PROJECT_DIR$/java_version/bfs/TestThread.java" />
         <option value="$PROJECT_DIR$/tag/google/count-and-say.py" />
@@ -125,6 +163,10 @@
         <option value="$PROJECT_DIR$/tag/offer/regex.py" />
         <option value="$PROJECT_DIR$/tag/offer/isNumeric.py" />
         <option value="$PROJECT_DIR$/python_version/tag/offer/reorderArray.py" />
+        <option value="$PROJECT_DIR$/python_version/tag/offer/FindKthToTail.py" />
+        <option value="$PROJECT_DIR$/python_version/tag/offer/EntryNodeOfLoop.py" />
+        <option value="$PROJECT_DIR$/python_version/tag/offer/ReverseList.py" />
+        <option value="$PROJECT_DIR$/python_version/tag/offer/mergeSortedList.py" />
       </list>
     </option>
   </component>
@@ -202,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.reorderArray">
+  <component name="RunManager" selected="Python.ReverseList">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,7 +264,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="cut_rope" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="EntryNodeOfLoop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,12 +272,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tag/offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_version/tag/offer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tag/offer/cut_rope.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_version/tag/offer/EntryNodeOfLoop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,7 +286,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="one_in_binary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="FindKthToTail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,12 +294,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tag/offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_version/tag/offer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tag/offer/one_in_binary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_version/tag/offer/FindKthToTail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,7 +308,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="power" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ReverseList" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,12 +316,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tag/offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_version/tag/offer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tag/offer/power.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_version/tag/offer/ReverseList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,19 +375,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.cut_rope" />
-      <item itemvalue="Python.one_in_binary" />
-      <item itemvalue="Python.power" />
       <item itemvalue="Python.print1ToMaxOfDigits" />
       <item itemvalue="Python.reorderArray" />
+      <item itemvalue="Python.FindKthToTail" />
+      <item itemvalue="Python.EntryNodeOfLoop" />
+      <item itemvalue="Python.ReverseList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ReverseList" />
+        <item itemvalue="Python.EntryNodeOfLoop" />
+        <item itemvalue="Python.FindKthToTail" />
         <item itemvalue="Python.reorderArray" />
         <item itemvalue="Python.print1ToMaxOfDigits" />
-        <item itemvalue="Python.power" />
-        <item itemvalue="Python.one_in_binary" />
-        <item itemvalue="Python.cut_rope" />
       </list>
     </recent_temporary>
   </component>
@@ -378,12 +420,13 @@
       <workItem from="1544402959163" duration="688000" />
       <workItem from="1544409260569" duration="427000" />
       <workItem from="1544656685522" duration="13370000" />
-      <workItem from="1544759369198" duration="6553000" />
+      <workItem from="1544759369198" duration="8548000" />
+      <workItem from="1545029758828" duration="4236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66639000" />
+    <option name="totallyTimeSpent" value="72870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="850" y="0" width="830" height="1050" extended-state="0" />
@@ -429,30 +472,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/reorder_list.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/median_of_two_sorted_array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2891">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/maximum_subarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="17" column="25" selection-start-line="17" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/RandomListNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/intersection_of_two_arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2773">
@@ -491,90 +510,20 @@
     <entry file="file://$PROJECT_DIR$/java_version/Linked_List_Array/ListNode.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/reverse_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/microsoft/rotate-image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/google/implement Trie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="110" column="38" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/google/fruit_into_baskets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/reverse_list.py" />
+    <entry file="file://$PROJECT_DIR$/tag/microsoft/rotate-image.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/implement Trie.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/fruit_into_baskets.py" />
     <entry file="file://$PROJECT_DIR$/tag/google/merge_intervals.py" />
-    <entry file="file://$PROJECT_DIR$/tag/google/numUniqueEmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/google/merge.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/google/merge_sorted_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/google/max_area_of_island.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/google/friend_circles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph-master/number_of_islands.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/google/hasCycle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/google/best_time_to_buy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/google/lengthOfLongestSubstring.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tag/google/numUniqueEmail.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/merge.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/merge_sorted_array.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/max_area_of_island.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/friend_circles.py" />
+    <entry file="file://$PROJECT_DIR$/graph-master/number_of_islands.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/hasCycle.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/best_time_to_buy.py" />
+    <entry file="file://$PROJECT_DIR$/tag/google/lengthOfLongestSubstring.py" />
     <entry file="file://$PROJECT_DIR$/java_version/bfs/Union_find_Graph_valid_tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -582,167 +531,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swordOffer/base_component.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/duplicate_number_in_array.py">
+    <entry file="file://$PROJECT_DIR$/swordOffer/base_component.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/duplicate_number_in_array.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/find-the-duplicate-number.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/find_number_in_2d_matrix.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/construct_binary_tree.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/end_to_start_array_list.py" />
+    <entry file="file://$PROJECT_DIR$/swordOffer/PrintMinNumber.py" />
+    <entry file="file://$PROJECT_DIR$/swordOffer/frog_jump.py" />
+    <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/partition_list.py" />
+    <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/README.md" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/queue.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/next_node_binary_tree.py" />
+    <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/hasCycle.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/min_num_in_rotated_array.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/path_in_matrix.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/robot_move_in_matrix.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/cut_rope.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/one_in_binary.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/power.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/print1ToMaxOfDigits.py" />
+    <entry file="file://$PROJECT_DIR$/swordOffer/stack_im.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/deleteDuplicate.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/regex.py" />
+    <entry file="file://$PROJECT_DIR$/tag/offer/isNumeric.py" />
+    <entry file="file://$PROJECT_DIR$/python_version/tag/offer/FindKthToTail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/find-the-duplicate-number.py">
+    <entry file="file://$PROJECT_DIR$/python_version/tag/offer/EntryNodeOfLoop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="219">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/find_number_in_2d_matrix.py">
+    <entry file="file://$PROJECT_DIR$/python_version/tag/offer/ReverseList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/construct_binary_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/end_to_start_array_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swordOffer/PrintMinNumber.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swordOffer/frog_jump.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/partition_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/next_node_binary_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linked-list_structure_algorithm-master/hasCycle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/min_num_in_rotated_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/path_in_matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/robot_move_in_matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/cut_rope.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/one_in_binary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/power.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/print1ToMaxOfDigits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swordOffer/stack_im.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/deleteDuplicate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/regex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag/offer/isNumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="34" />
+        <state relative-caret-position="24">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python_version/tag/offer/reorderArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_version/tag/offer/mergeSortedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
         </state>
       </provider>
     </entry>
