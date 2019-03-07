@@ -1,3 +1,6 @@
+from typing import Any, Union
+
+
 class Solution:
     def minArea(self, image, x, y):
         '''
@@ -24,6 +27,7 @@ class Solution:
                     if element == '1':
                         return False
             return True
+        
         def leftBoundary():
             left, right = -1, column
             while left + 1 < right:
@@ -39,7 +43,7 @@ class Solution:
         def rightBoundary():
             left, right = column, len(image[0])
             while left + 1 < right:
-                mid = left + (right - left) // 2
+                mid: Union[int, Any] = left + (right - left) // 2
                 if col_empty(mid + 1) and not col_empty(mid):
                     return mid
                 elif col_empty(mid) and col_empty(mid + 1):
@@ -47,7 +51,6 @@ class Solution:
                 else:
                     left = mid + 1
             return left
-
 
         def upBoundary():
             up,down = -1, row
@@ -73,5 +76,5 @@ class Solution:
                     down = mid
             return up
 
+        return (rightBoundary() - leftBoundary()) * (downBoundary() - upBoundary())
 
-        return ((rightBoundary() - leftBoundary())) * (downBoundary() - upBoundary())
