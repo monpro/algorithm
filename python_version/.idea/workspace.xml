@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44dffd5d-d545-44b4-baa1-6209d1961f88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/binary_search/recover_rotated_sorted_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_tree/binary-tree-longest-consecutive-sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_tree/path-sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_version/double_pointer/three_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_version/double_pointer/three_sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_version/netEase/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_version/netEase/test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_search/Smallest_Rectangle_Enclosing_Black_Pixels.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_search/Smallest_Rectangle_Enclosing_Black_Pixels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_tree/binary-tree-paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_tree/binary-tree-paths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph/deep_copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph/deep_copy.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="994" />
@@ -292,23 +286,23 @@
       <workItem from="1551145005079" duration="2000" />
       <workItem from="1551170994634" duration="6613000" />
       <workItem from="1551248655571" duration="794000" />
-      <workItem from="1551952772454" duration="3913000" />
+      <workItem from="1551952772454" duration="4187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12008000" />
+    <option name="totallyTimeSpent" value="12282000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="994" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13471779" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15445666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29379156" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30079454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

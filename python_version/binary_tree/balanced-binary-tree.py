@@ -8,9 +8,9 @@ class Solution:
         # write your code here
         if root is None:
             return True
-
         leftHeight = self.getHeight(root.left)
         rightHeight = self.getHeight(root.right)
+
         if abs(leftHeight - rightHeight) > 1:
             return False
 
