@@ -1,10 +1,4 @@
-package bfs;
-
-import java.util.*;
-
-public class Graph_valid_tree {
-
-
+class Solution {
     public Map<Integer, Set<Integer>> initmap(int n, int[][] edges){
         Map<Integer, Set<Integer>> map = new HashMap<>();
         for(int i = 0; i < n; i++){
@@ -28,6 +22,9 @@ public class Graph_valid_tree {
         }
         if(n != edges.length + 1){
             return false;
+        }
+        if(edges.length == 0){
+            return true;
         }
 
         Map<Integer, Set<Integer>> map = initmap(n, edges);
