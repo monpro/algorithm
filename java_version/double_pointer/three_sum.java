@@ -17,7 +17,6 @@ public class three_sum {
         (-1, 0, 1)
         (-1, -1, 2)
                  */
-
         List<List<Integer>> result = new ArrayList<>();
         if(numbers.length == 0){
             return result;
