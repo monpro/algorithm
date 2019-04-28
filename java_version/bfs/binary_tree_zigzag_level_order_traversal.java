@@ -4,7 +4,6 @@ import java.util.*;
 
 public class binary_tree_zigzag_level_order_traversal {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-      # bfs using queue
         List<List<Integer>> result = new ArrayList<>();
         if(root == null){
             return result;

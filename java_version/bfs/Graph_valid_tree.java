@@ -1,3 +1,7 @@
+package bfs;
+
+import java.util.*;
+
 class Solution {
     public Map<Integer, Set<Integer>> initmap(int n, int[][] edges){
         Map<Integer, Set<Integer>> map = new HashMap<>();
