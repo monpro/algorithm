@@ -51,7 +51,7 @@ public class Longest_Common_Prefix_14 {
         return lcpLeft.substring(0, minLengh);
     }
 
-        public static void main(String[] args){
+    public static void main(String[] args){
         System.out.println("abcdabc".indexOf("abc"));
     }
 }
