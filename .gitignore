@@ -1,5 +1,5 @@
-/.idea
+**/.idea
+**/.DS_Store
 /output
 /venv
-/java_version/.idea
 /algorithm.iml
