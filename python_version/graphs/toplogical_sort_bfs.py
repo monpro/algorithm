@@ -25,7 +25,7 @@ class Solution:
         for i in indegree_hash_map:
             if indegree_hash_map[i] == 0:
                 queue.append(i)
-        while queue != []:
+        while queue:
             node = queue.pop(0)
             result.append(node)
             for i in node.neighbors:
