@@ -46,6 +46,3 @@ class Solution:
         
         return mapping[head]
 
-import copy
-
-copy.deepcopy
