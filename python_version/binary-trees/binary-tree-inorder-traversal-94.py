@@ -14,18 +14,20 @@ class Solution:
     inorder--- left, node, right
     """
 
+    def __init__(self):
+        self.result = []
+
     def inorderTraversal(self, root):
         # write your code here
-        result = []
         if root is None:
-            return result
+            return self.result
 
-        self.helper(root, result)
-        return result
+        self.helper(root)
+        return self.result
 
-    def helper(self, node, result):
+    def helper(self, node):
         if node is None:
             return
-        self.helper(node.left, result)
-        result.append(node.val);
-        self.helper(node.right, result)
+        self.helper(node.left)
+        self.result.append(node.val)
+        self.helper(node.right)
