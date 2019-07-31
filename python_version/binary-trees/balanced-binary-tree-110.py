@@ -3,7 +3,6 @@ class Solution:
     @param root: The root of binary tree.
     @return: True if this Binary tree is Balanced, or false.
     """
-    #divide and conquer 分而治之
     def isBalanced(self, root):
         # write your code here
         if root is None:
@@ -13,7 +12,6 @@ class Solution:
 
         if abs(leftHeight - rightHeight) > 1:
             return False
-
         return self.isBalanced(root.left) and self.isBalanced(root.right)
 
     def getHeight(self, node):
@@ -22,5 +20,4 @@ class Solution:
 
         leftHeight = self.getHeight(node.left)
         rightHeight = self.getHeight(node.right)
-
         return max(leftHeight, rightHeight) + 1
