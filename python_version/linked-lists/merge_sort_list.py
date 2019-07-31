@@ -1,10 +1,5 @@
-"""
-Definition of ListNode
-class ListNode(object):
-    def __init__(self, val, next=None):
-        self.val = val
-        self.next = next
-"""
+
+from utils.Node import ListNode
 
 
 class Solution:
