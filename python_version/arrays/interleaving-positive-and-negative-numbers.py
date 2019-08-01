@@ -12,7 +12,6 @@ class Solution:
     def rerange(self, A):
         if len(A) <= 1:
             return A
-
         positive = len([i for i in A if i > 0])
         negative = len([i for i in A if i < 0])
         positiveFirst = True

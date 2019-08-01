@@ -18,8 +18,8 @@ class Solution:
         if root.val + temp == sum and root.left is None and root.right is None:
             return True
         left = self.helper(root.left, temp + root.val, sum)
-        right = self.helper(root.right,temp + root.val, sum)
-
+        right = self.helper(root.right, temp + root.val, sum)
+        print(left, right)
         if left or right:
             return True
         else:
