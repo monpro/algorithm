@@ -10,24 +10,25 @@ class Solution:
         numbers.sort()
         result = []
         for i in range(len(numbers) - 2):
+            if i > 0 and numbers[i - 1] == numbers[i]:
+                continue
             left, right = i + 1, len(numbers) - 1
             while left < right:
-                if numbers[left] + numbers[right] + numbers[i] > 0:
+                temp_value = numbers[left] + numbers[right] + numbers[i]
+                if temp_value > 0:
                     right -= 1
 
-                elif numbers[left] + numbers[right] + numbers[i] < 0:
+                elif temp_value < 0:
                     left += 1
 
-                elif numbers[left] + numbers[right] + numbers[i] == 0:
-                    if [numbers[i], numbers[left], numbers[right]] in result:
-                        pass
+                elif temp_value == 0:
+                    result.append([numbers[i], numbers[left], numbers[right]])
+                    while left < right and numbers[left] == numbers[left + 1]:
                         left += 1
+                    while left < right and numbers[right] == numbers[right - 1]:
                         right -= 1
-                    else:
-                        result.append([numbers[i], numbers[left], numbers[right]])
-                        left += 1
-                        right -= 1
-
+                    left += 1
+                    right -= 1
         return result
 
     def threeSumClosest(self, numbers, target):
@@ -38,10 +39,8 @@ class Solution:
             left, right = i + 1, len(numbers) - 1
             while left < right:
                 amount = numbers[i] + numbers[left] + numbers[right]
-
                 if result is None:
                     result = amount
-
                 if abs(result - target) > abs(amount - target):
                     result = amount
 
