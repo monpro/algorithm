@@ -9,7 +9,6 @@ class Solution:
         # firstly, red -- blue then white--blue
 
         left, right = 0, len(nums) - 1
-
         while left < right:
             while left < right and nums[left] == 0:
                 left += 1
