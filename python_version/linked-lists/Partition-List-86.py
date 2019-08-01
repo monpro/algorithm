@@ -7,22 +7,21 @@ class Solution:
     @param x: An integer
     @return: A ListNode
     """
-
     def partition(self, head, x):
         # write your code here
         if head is None:
             return head
-        aHead, bHead = ListNode(0), ListNode(0)
-        aTail, bTail = aHead, bHead
+        leftHead, rightHead = ListNode(-1), ListNode(-1)
+        leftTail, rightTail = leftHead, rightHead
         while head is not None:
             if head.val < x:
-                aTail.next = head
-                aTail = aTail.next
+                leftTail.next = head
+                leftTail = leftTail.next
             else:
-                bTail.next = head
-                bTail = bTail.next
+                rightTail.next = head
+                rightTail = rightTail.next
             head = head.next
+        rightTail.next = None
+        leftTail.next = rightHead.next
 
-        bTail.next = None
-        aTail.next = bHead.next
-        return aHead.next
+        return leftHead.next
