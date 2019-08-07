@@ -7,7 +7,7 @@ class Solution:
 
     def canFinish(self, numCourses, prerequisites):
         # write your code here
-        if prerequisites == []:
+        if not prerequisites:
             return True
 
         # create indegree hashmap and all nodes
@@ -26,14 +26,11 @@ class Solution:
             if indegree_hash_map[i] == 0:
                 queue.append(i)
 
-        while queue != []:
+        while queue:
             e = queue.pop(0)
             result.append(e)
             for i in neighbours[e]:
                 indegree_hash_map[i] -= 1
-
                 if indegree_hash_map[i] == 0:
                     queue.append(i)
-
-        print(result)
         return len(result) == len(node_set)

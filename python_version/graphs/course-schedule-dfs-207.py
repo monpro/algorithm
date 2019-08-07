@@ -4,6 +4,7 @@ class Solution:
     @param: prerequisites: a list of prerequisite pairs
     @return: true if can finish all courses or false
     """
+
     def canFinish(self, numCourses, prerequisites):
         # dfs version
         if not prerequisites:
