@@ -18,7 +18,7 @@ class Solution:
         queue = []
         result = []
         queue.append(root)
-        while queue != []:
+        while queue:
             mid_result = []
             result.append([i.val for i in queue])
             for e in queue:
