@@ -17,7 +17,6 @@ class Solution:
     def getHeight(self, node):
         if node is None:
             return 0
-
         leftHeight = self.getHeight(node.left)
         rightHeight = self.getHeight(node.right)
         return max(leftHeight, rightHeight) + 1
