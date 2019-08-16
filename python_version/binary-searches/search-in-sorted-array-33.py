@@ -8,12 +8,26 @@ class Solution(object):
         if len(nums) == 0:
             return -1
         left, right = 0, len(nums) - 1
+        while left + 1 < right:
+            mid = left + (right - left) // 2
+            if nums[mid] == target:
+                return mid
+            if (target - nums[-1]) * (nums[mid] - nums[-1]) > 0:
+                if nums[mid] < target:
+                    left = mid
+                else:
+                    right = mid
+            elif target > nums[-1]:
+                right = mid
+            else:
+                left = mid
 
         if nums[left] == target:
             return left
-        if nums[right] == target:
+        elif nums[right] == target:
             return right
-        return -1
+        else:
+            return -1
 
 if __name__ == "__main__":
     l = Solution()
