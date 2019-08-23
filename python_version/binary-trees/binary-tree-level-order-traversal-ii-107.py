@@ -19,15 +19,13 @@ class Solution:
         queue = [root]
         while queue != [] :
             mid_result = []
-            result.append([i.val for i in queue])
+            result.insert(0, [i.val for i in queue])
             for i in queue:
                 if i.left != '#' and i.left is not None:
                     mid_result.append(i.left)
                 if i.right != '#' and i.right is not None:
                     mid_result.append(i.right)
             queue = mid_result
-        
-        result.reverse()
         return result
         
         

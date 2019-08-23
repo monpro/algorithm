@@ -30,4 +30,3 @@ class Solution:
             return nums[start]
         else:
             return nums[end]
-
