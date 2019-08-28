@@ -9,13 +9,11 @@ class Solution:
         result = [[1], [1, 1]]
         temp = []
         for i in range(2, numRows):
+          temp.append(1)
           for j in range(1, i):
             temp.append(result[i - 1][j - 1] + result[i - 1][j])
+          temp.append(1)
           result.append(temp)
           temp = []
         return result
 
-
-if __name__ == "__main__":
-  l = Solution()
-  print(l.generate(5))
