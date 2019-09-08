@@ -2,4 +2,9 @@
 **/.DS_Store
 /output
 /venv
+<<<<<<< HEAD
 /algorithm.imlgit
+=======
+/algorithm.imlgit
+test
+>>>>>>> a3d7316fe9c6509382b1e1d7415e1460e11f9c96

@@ -1,10 +1,7 @@
-"""
-Definition of TreeNode:
 class TreeNode:
     def __init__(self, val):
         self.val = val
         self.left, self.right = None, None
-"""
 
 
 class Solution:
@@ -16,30 +13,6 @@ class Solution:
     """
     def serialize(self, root):
         # write your code here
-        '''
-        while queue != []:
-            e = queue.pop(0)
-            if e == '#':
-                result.append(e)
-            else:
-                result.append(e.val)
-            if e == '#':
-                pass
-            elif e.left is None and e.right is None:
-                queue.append('#')
-                queue.append('#')
-            elif e.left is not None and e.right is None:
-                queue.append(e.left)
-                queue.append('#')
-            elif e.left is None and e.right is not None:
-                queue.append('#')
-                queue.append(e.right)
-            elif e.left is not None and e.right is not None:
-                queue.append(e.left)
-                queue.append(e.right)
-        
-        return result
-        '''
         if root is None:
             return '{}'
         queue = [root]
@@ -63,14 +36,6 @@ class Solution:
         
         return '{' + serialized_str + '}'
             
-        
-        
-        
-            
-        
-        
-        
-
     """
     @param data: A string serialized by your serialize method.
     This method will be invoked second, the argument data is what exactly
@@ -107,35 +72,3 @@ class Solution:
             isLeft = not isLeft
         return head
             
-        '''
-        realHead = TreeNode(0)
-        flag = [i for i in data]
-        while data != []:
-            if len(flag) == len(data):
-                head = TreeNode(data.pop(0))
-                realHead.left = head
-            else:
-                pass
-            left,right = data.pop(0), data.pop(1)
-            
-            if left == '#' and right == '#':
-                if len(data) == 0:
-                    return realHead.left
-                else:
-                    head = TreeNode(data.pop(0))
-            elif left != '#' and right == '#':
-                head.left = TreeNode(left)
-                head = head.left
-                
-            elif left != '#' and right != '#':
-                head.left = TreeNode(left)
-                head.right = TreeNode(right)
-                head = head.left
-            elif left == '#' and right != '#':
-                head.right = TreeNode(right)
-                head = head.right
-            return realHead.left
-                
-            
-        '''
-                
