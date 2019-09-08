@@ -21,4 +21,3 @@ class Solution:
             subset.append(i)
             self.helper(result, subset, n, k - 1, i + 1)
             subset.pop()
-            
