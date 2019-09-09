@@ -30,7 +30,3 @@ class Solution(object):
           return False
       return True
 
-
-
-if __main__ == "__name__":
-    l = Solution()
