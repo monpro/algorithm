@@ -4,7 +4,11 @@
 /venv
 /algorithm.imlgit
 <<<<<<< HEAD
+<<<<<<< HEAD
 test
 =======
 test
 >>>>>>> 559f193... add two math tricks
+=======
+test
+>>>>>>> 446d69e... use O(N) to solve the copyRandomList
