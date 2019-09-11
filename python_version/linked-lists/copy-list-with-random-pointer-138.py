@@ -1,42 +1,24 @@
-from utils.Node import RandomListNode
-
-class Solution:
-    # @param head: A RandomListNode
-    # @return: A RandomListNode
+class Solution(object):
+    """
+    """
     def copyRandomList(self, head):
-        # write your code here
-        # copy the next and random and the label
-        if head is None:
-            return None
-        myMap = {}
-        new_head = RandomListNode(head.label)
-        myMap[head] = new_head
-        n1 = head
-        n2 = new_head
-
-        # copy neighboor
-        # use hashmap to avoid dependencies already existed
-        while n1 is not None:
-            n2.random = n1.random
-
-            if n1.next is not None:
-                n2.next = RandomListNode(n1.next.label)
-                myMap[n1.next] = n2.next
-
+        dic, prev, node = {}, None, head
+        while node:
+            if node not in dic:
+                # Use a dictionary to map the original node to its copy
+                dic[node] = Node(node.val, node.next, node.random)
+            if prev:
+                # Make the previous node point to the copy instead of the original.
+                prev.next = dic[node]
             else:
-                n2.next = None
-
-            n1 = n1.next
-            n2 = n2.next
-
-        # deep copy Random
-
-        copy_random_node = new_head
-
-        while copy_random_node is not None:
-            if copy_random_node.random is not None:
-                copy_random_node.random = myMap[copy_random_node.random]
-
-            copy_random_node = copy_random_node.next
-
-        return new_head
+                # If there is no prev, then we are at the head. Store it to return later.
+                head = dic[node]
+            if node.random:
+                if node.random not in dic:
+                    # If node.random points to a node that we have not yet encountered, store it in the dictionary.
+                    dic[node.random] = Node(node.random.val, node.random.next, node.random.random)
+                # Make the copy's random property point to the copy instead of the original.
+                dic[node].random = dic[node.random]
+            # Store prev and advance to the next node.
+            prev, node = dic[node], node.next
+        return head

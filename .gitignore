@@ -2,9 +2,5 @@
 **/.DS_Store
 /output
 /venv
-<<<<<<< HEAD
-/algorithm.imlgit
-=======
 /algorithm.imlgit
 test
->>>>>>> master
