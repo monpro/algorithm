@@ -11,4 +11,21 @@ class Solution:
             result = max(result, dp[i])
 
         return result
+    def lengthOfLISTail(self, nums):
+        tails = [0 for i in range(len(nums))]
+        size = 0
+        for num in nums:
+            start ,end = 0, size
+            while start != end:
+                mid = start + (end - start) // 2
+                if tails[mid] < num:
+                    start = mid + 1
+                else:
+                    end = mid
+            tails[start] = num
+            if start == size:
+                size += 1
+        return size
+
+                
 
