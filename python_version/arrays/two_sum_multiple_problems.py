@@ -38,7 +38,7 @@ class Solution:
     return count
 
   @staticmethod
-  def twoSum_greater(nums, target):
+  def twoSumGreater(nums, target):
     # write your code here
     nums.sort()
     count = 0
