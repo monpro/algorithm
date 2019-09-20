@@ -4,6 +4,8 @@
 # def isBadVersion(version):
 
 class Solution:
+    def isBadVersion(self, index):
+      return index
     def firstBadVersion(self, n):
         """
         :type n: int
@@ -12,7 +14,7 @@ class Solution:
         left, right = 1, n
         while left < right:
             mid = left + (right - left) // 2
-            if isBadVersion(mid):
+            if self.isBadVersion(mid):
               right = mid
             else:
               left = mid + 1
