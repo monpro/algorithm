@@ -12,34 +12,48 @@ class NumArray(object):
         """
         :type nums: List[int]
         """
-        def createTree(nums, l, r):
-          if l > r:
-            return None
-          
-          if l == r:
-            n = Node(l, r)
-            n.total = nums[l]
-            return n
 
-          mid = (l + r) // 2
-          root = Node(l, r)
+        self.root = self.createTree(nums, 0, len(nums) - 1)
+    def createTree(self, nums, l, r):
+      if l > r:
+        return None
+      
+      if l == r:
+        n = Node(l, r)
+        n.total = nums[l]
+        return n
 
-          root.left = createTree(nums, l, mid)
-          root.right = createTree(nums, mid + 1, r)
+      root = Node(l, r)
+      mid = (l + r) // 2
 
-          root.toal = root.left.total + root.right.total
+      root.left = self.createTree(nums, l, mid)
+      root.right = self.createTree(nums, mid + 1, r)
 
-          return root
-        self.root = createTree(nums, 0, len(nums) - 1)
+      root.total = root.left.total + root.right.total
 
+      return root
     def update(self, i, val):
         """
         :type i: int
         :type val: int
         :rtype: None
         """
-        self.result[i] = val
+        def updateVal(root, i, val):
+          if root.start == root.end:
+            root.total = val
+            return val
+          mid = (root.start + root.end) // 2
+
+          if i <= mid:
+            updateVal(root.left, i, val)
+          else:
+            updateVal(root.right, i, val)
+          root.total = root.left.total + root.right.total
+
+          return root
         
+        return updateVal(self.root, i, val)
+
 
     def sumRange(self, i, j):
         """
@@ -47,9 +61,17 @@ class NumArray(object):
         :type j: int
         :rtype: int
         """
-        if i > j:
-          return
-        return sum(self.result[i: j + 1])
-        
-         
-        
+        def rangeSum(root, i, j):
+          if root.start == i and root.end == j:
+            return root.total
+          
+          mid = (root.start + root.end) // 2
+
+          if j <= mid:
+            return rangeSum(root.left, i, j)
+          elif i >= mid + 1:
+            return rangeSum(root.right, i, j)
+          else:
+            return rangeSum(root.left, i, mid) + rangeSum(root.right, mid + 1, j)
+
+        return rangeSum(self.root, i, j)
