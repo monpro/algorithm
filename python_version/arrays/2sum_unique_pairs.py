@@ -7,7 +7,6 @@ class Solution:
 
     def twoSum6(self, nums, target):
         # write your code here
-        count = 0
         nums.sort()
         result = []
         left, right = 0, len(nums) - 1
