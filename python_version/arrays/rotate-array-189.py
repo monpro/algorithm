@@ -8,11 +8,13 @@ class Solution:
         k = k % len(nums)
         nums[: len(nums) - k], nums[len(nums) - k:] = nums[len(nums) - k:], nums[:len(nums) - k]
         return nums
-    def rotate(self, nums, flag):
+        
+    def anotherRotate(self, nums, k):
         k = k % len(nums)
         self.helper(nums, 0, len(nums) - 1)
-        self.helper(0, k - 1)
-        self.helper(k, len(nums) - 1)
+        self.helper(nums, 0, k - 1)
+        self.helper(nums, k, len(nums) - 1)
+
     def helper(self, nums, start, end):
         while start < end:
             nums[start], nums[end] = nums[end], nums[start]
