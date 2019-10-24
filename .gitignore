@@ -1,14 +1,19 @@
-**/.idea
-**/.DS_Store
+.idea
+.DS_Store
+.vscode
 /output
 /venv
 /algorithm.imlgit
 <<<<<<< HEAD
 <<<<<<< HEAD
 test
+<<<<<<< HEAD
 =======
 test
 >>>>>>> 559f193... add two math tricks
 =======
 test
 >>>>>>> 446d69e... use O(N) to solve the copyRandomList
+=======
+
+>>>>>>> 1d94907... remove .vscode
