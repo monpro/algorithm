@@ -1,6 +1,8 @@
-**/.idea
-**/.DS_Store
+.idea
+.DS_Store
+.vscode
 /output
 /venv
 /algorithm.imlgit
 test
+
