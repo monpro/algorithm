@@ -8,10 +8,8 @@ class Solution(object):
             return None
         slow, fast = head, head
         isCycle = False
-        while slow and fast:
+        while fast and fast.next:
             slow = slow.next
-            if fast.next is None:
-                return None
             fast = fast.next.next
             if slow == fast:
                 isCycle = True
