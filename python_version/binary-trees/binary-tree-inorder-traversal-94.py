@@ -31,3 +31,17 @@ class Solution:
         self.helper(node.left)
         self.result.append(node.val)
         self.helper(node.right)
+
+    def inorderIterative(self, root):
+        # write your code here
+        result = []
+        queue = []
+        cur = root
+        while cur or queue:
+            while cur:
+                queue.append(cur)
+                cur = cur.left
+            cur = queue.pop()
+            result.append(cur.val)
+            cur = cur.right
+        return result
