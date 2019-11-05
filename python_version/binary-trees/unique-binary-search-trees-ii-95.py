@@ -11,4 +11,23 @@ class Solution(object):
         :type n: int
         :rtype: List[TreeNode]
         """
-        return None
+        if n == 0:
+            return []
+        return self.generateSubTrees(1, n)
+
+    def generateSubTrees(self, start, end):
+        result = []
+        if start > end:
+            result.append(None)
+            return result
+        for i in range(start, end + 1):
+            leftSubTrees = self.generateSubTrees(start, i - 1)
+            rightSubTrees = self.generateSubTrees(i + 1, end)
+        
+            for left in leftSubTrees:
+                for right in rightSubTrees:
+                    root = TreeNode(i)
+                    root.left = left
+                    root.right = right
+                    result.append(root)
+        return result
