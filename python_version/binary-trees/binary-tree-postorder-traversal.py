@@ -28,4 +28,19 @@ class Solution:
 
         self.helper(node.left, result)
         self.helper(node.right, result)
-        result.append(node.val);
+        result.append(node.val)
+    def postorderIterative(self, root):
+        result = []
+        queue = [root]
+        while queue:
+            node = queue.pop()
+            result.insert(0, node.val)
+            if node.left:
+                queue.append(node.left)
+            if node.right:
+                queue.append(node.right)
+        return result
+
+
+
+
