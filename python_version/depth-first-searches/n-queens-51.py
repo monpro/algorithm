@@ -17,8 +17,6 @@ class Solution:
         self.helper(n, result, subset)
         subset.pop()
         
-
-
     def isValid(self, subset, index):
       rowSize = len(subset)
       for i in range(len(subset)):
@@ -30,7 +28,6 @@ class Solution:
           return False
       
       return True
-
 
     def drawDassBoard(self, subset):
       dassBoard = []
