@@ -13,7 +13,7 @@ class Solution(object):
         """
         # use the fast and slow pointer trick
         slow, fast = head, head
-        revHead = None
+        rev = None
         while fast and fast.next:
           fast = fast.next.next
           rev, rev.next, slow = slow, rev, slow.next
@@ -24,4 +24,26 @@ class Solution(object):
           rev = rev.next
           slow = slow.next
         return not rev
+    def isPalindromeNoSideEffect(self, head):
+      rev = None
+      fast = head
+      while fast and fast.next:
+        fast = fast.next.next
+        rev, rev.next, head = head, rev, head.next
+      
+      if fast:
+        tail = head.next
+      else:
+        tail = head
+      isPali = True
+      while rev:
+        if isPali and rev.val == tail.val:
+          isPali = True
+        else:
+          isPali = False
+        head, head.next, rev = rev, head, rev.next
+        tail = tail.next
+      return isPali
+
+
         
