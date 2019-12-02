@@ -19,3 +19,24 @@ class Solution(object):
             for i in range(left + 1, right):
               dp[left][right] = max(dp[left][right], nums[left] * nums[i] * nums[right] + dp[left][i] + dp[i][right])
         return dp[0][n-1]
+    
+    def maxCoinsWithMemo(self, nums):
+      coins = [1] + nums + [1]
+      n = len(coins)
+      memo = [[0] * n for _ in range(n)]
+
+      return self.helper(memo, coins, 0, n - 1)
+    
+    def helper(self, memo, coins, left, right):
+      if left + 1 == right:
+        return 0
+      if memo[left][right] > 0:
+        return memo[left][right]
+      answer = 0
+
+      for i in range(left + 1, right):
+        answer = max(answer, coins[left] * coins[i] * coins[right] 
+        + self.helper(memo, coins, left, i) 
+        + self.helper(memo, coins, i, right))
+      memo[left][right] = answer
+      return answer
