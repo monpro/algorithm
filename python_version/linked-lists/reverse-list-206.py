@@ -8,7 +8,6 @@ class Solution:
 
     def reverse(self, head):
         # write your code here
-        dummy = ListNode(0)
         prev = None
 
         while head:
