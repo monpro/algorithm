@@ -1,4 +1,24 @@
 class Solution(object):
+
+    def finalSolution(self, words):
+      result = []
+      word_dict = set(words)
+      for word in words:
+        word_dict.remove(word)
+        if self.check(word, word_dict) is True:
+          result.append(word)
+        word_dict.add(word)
+      return result
+
+    def check(self, word, word_dict):
+      if word in word_dict:
+        return True
+      
+      for i in range(len(word), 0, -1):
+        if word[: i] in word_dict and self.check(word[i: ], word_dict):
+          return True
+      return False
+      
     def findAllConcatenatedWordsInADict(self, words):
         """
         :type words: List[str]
