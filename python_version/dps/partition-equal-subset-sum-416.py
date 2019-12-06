@@ -22,8 +22,25 @@ class Solution(object):
               dp[i][j] = dp[i - 1][j] or dp[i - 1][j - nums[i - 1]]
         return dp[n][sumVal]
 
+    def canPartitionOptiSpace(self, nums):
+        sumVal = sum(nums)
+        if sumVal % 2 == 1:
+          return False
+        sumVal = sumVal // 2
+        n = len(nums)
+        dp = [0 for _ in range(sumVal + 1)]
+        dp[0] = 1
+        # dp[i] whether you could get sum <= i from the array
+        for num in nums:
+          for i in range(sumVal, 0, -1):
+            if i >= num:
+              dp[i] = dp[i] or dp[i - num]
+        return dp[sumVal]
+          
+
+
 if __name__ == "__main__":
     l = Solution()
-    nums = [1, 5, 11, 5]
-    print(l.canPartition(nums))
+    nums = [1, 2, 5]
+    print(l.canPartitionOptiSpace(nums))
         
