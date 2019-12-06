@@ -5,7 +5,10 @@ class Solution(object):
         :rtype: bool
         """
         # dp[i][j] means whether j could be get from the sum of first i number
-        sumVal = sum(nums) // 2
+        sumVal = sum(nums)
+        if sumVal % 2 == 1:
+          return False
+        sumVal = sumVal // 2
         n = len(nums)
         dp = [[0 for _ in range(sumVal + 1)] for _ in range(n + 1)]
         for i in range(n + 1):
