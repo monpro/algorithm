@@ -36,11 +36,35 @@ class Solution(object):
             if i >= num:
               dp[i] = dp[i] or dp[i - num]
         return dp[sumVal]
-          
+
+    def canPartitionWithDfs(self, nums):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: bool
+        """
+        cache = {}
+        if sum(nums) % 2 == 1:
+          return False
+        else:
+          return self.helper(0, sum(nums) // 2, nums, cache)
+
+    def helper(self, start, target, nums, cache):
+      if (start, target) in cache:
+        return cache[(start, target)]
+
+      if target < 0:
+        return False
+      elif target == 0:
+        return True
+
+      for i in range(start, len(nums)):
+        if self.helper(i + 1, target - nums[i], nums, cache):
+          return True
+        cache[(start, target)] = False
 
 
 if __name__ == "__main__":
     l = Solution()
     nums = [1, 2, 5]
     print(l.canPartitionOptiSpace(nums))
-        
