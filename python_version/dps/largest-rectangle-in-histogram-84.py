@@ -24,4 +24,16 @@ class Solution:
       for i in range(n):
         result = max(result, (right[i] + left[i] - 1) * heights[i] )
       return result
-        
+    
+    def largestRectangleAreaStack(self, heights):
+      ans = 0
+      stack = [-1]
+      heights.append(0)
+      for i in range(len(heights)):
+        while heights[i] < heights[stack[-1]]:
+          h = heights[stack.pop()]
+          w = i - stack[-1] - 1
+          ans = max(ans, h * w)
+        stack.append(i)
+      heights.pop()
+      return ans        
