@@ -6,14 +6,12 @@ class Solution:
         cut = [0 for _ in range(n)]
         isPal = [[0 for _ in range(n)] for _ in range(n)]
         for i in range(n):
-            minVal = i
+            cut[i] = i
             for j in range(i + 1):
-                if s[j] == s[i] and (j + 1 > i - 1 or isPal[i + 1][j - 1]):
+                if s[j] == s[i] and (j + 1 > i - 1 or isPal[j + 1][i - 1]):
                     isPal[j][i] = 1
                     if j == 0:
-                        minVal = 0
+                        cut[i] = 0
                     else:
-                        minVal = min(minVal, cut[j - 1] + 1)
-
-            cut[i] = minVal
+                        cut[i] = min(cut[i], cut[j - 1] + 1)
         return cut[n - 1]
