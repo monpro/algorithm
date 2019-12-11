@@ -17,6 +17,10 @@ class Solution(object):
         count = {}
 
         self.helper(root, count)
+
+        maxValue = max([count[i] for i in count])
+
+        return [i for i in count if count[i] == maxValue]
     
     def helper(self, root, count):
       if not root:
@@ -35,4 +39,6 @@ class Solution(object):
         if val in count:
           count[val] += 1
         else:
-          count[val] += 1
+          count[val] = 1
+        
+        return val
