@@ -6,23 +6,22 @@
 #         self.right = None
 
 class Solution(object):
-    inorders = []
+    result = float("Inf")
+    prev = None
     def getMinimumDifference(self, root):
         """
         :type root: TreeNode
         :rtype: int
         """
         if not root:
-          return 0
-        self.inorder(root)
-        result = float('Inf')
-        for i in range(1, len(self.inorders)):
-          result = min(result, self.inorders[i] - self.inorders[i - 1])
-        return result
-    def inroder(self, root):
-      if not root:
-        return 
-      self.inroder(root.left)
-      self.inorders.append(root.val)
-      self.inorder(root.right)
-      
+          return self.result
+        
+        self.getMinimumDifference(root.left)
+        if self.prev != None:
+          self.result = min(self.result, root.val - self.prev)
+        
+        self.prev = root.val
+
+        self.getMinimumDifference(root.right)
+
+        return self.result
