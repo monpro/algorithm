@@ -21,5 +21,10 @@ class Solution:
         memo[encoding] = left + right
         return left + right
         
+    
 
-        
+    # def findTargetSumWaysWithDp(self, nums, S):
+    #     sumVal = sum(nums)
+    #     if S > sumVal and S < -sumVal:
+    #         return 0
+    #     dp = [[0 for _ in range(2 * sumVal + 1)] for _ in range(len(nums) + 1)]
