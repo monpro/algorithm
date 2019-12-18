@@ -7,7 +7,7 @@ class Solution(object):
         # what's square? 
         # four sides all with same length
         # cannot break the match 
-        # fours sides euqal to the longest match
+        # dfs with backtrace
         if len(nums) < 4:
           return False
         temp = [0, 0, 0, 0]
@@ -20,7 +20,7 @@ class Solution(object):
 
     def helper(self, nums, temp, target, index):
       if index == -1:
-        if temp[0] == target and temp[1] == target and temp[2] == target:
+        if temp[0] == target and temp[1] == target and temp[2] == target and temp[3] == target:
           return True
         else:
           return False
