@@ -19,4 +19,14 @@ class Solution:
         return result
     
     def maxDepthStack(self, root: 'Node') -> int:
-        return None
+        stack = [[root, 1]]
+        result = 0
+        
+        while stack:
+            node, depth = stack.pop(0)
+            if not node:
+                continue
+            result = max(result, depth)
+            for child in node.children:
+                stack.append([child, depth + 1])
+        return result
