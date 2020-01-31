@@ -18,4 +18,17 @@ class Solution(object):
                         result = s[i: j + 1]
                         
         return result
-                        
+    
+    def longestPalindromeOptimal(self, s):
+      if len(s) < 2 or s == s[::-1]:
+        return s
+      
+      length, start = 1, 0
+      for end in range(1, len(s)):
+        if length + 1 <= end and s[end - length - 1: end + 1] == s[end - length - 1: end + 1][::-1]:
+          start, length = end - length - 1, length + 2
+          continue
+        if length <= end and s[end - length: end + 1] == s[end - length: end + 1][::-1]:
+          start, length = end - length, length + 1
+      return s[start: start + length]
+
