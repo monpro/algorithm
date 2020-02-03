@@ -31,3 +31,30 @@ class Solution(object):
             
         self.dfs(root.left, depth + 1)
         self.dfs(root.right, depth + 1)
+
+
+
+    def deepestLeavesSum(self, root):
+        """
+        :type root: TreeNode
+        :rtype: int
+        """
+        if root is None:
+            return 0
+        queue = [root]
+        result = 0
+        
+        while queue:
+            length = len(queue)
+            result = 0
+            for i in range(length):
+                node = queue.pop(0)
+                result += node.val
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+            
+            
+        return result
+        
