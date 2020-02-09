@@ -1,3 +1,5 @@
+package dps;
+
 class Solution {
     public int maxProfit(int[] prices) {
         int firstBuy = Integer.MAX_VALUE;
