@@ -1,3 +1,6 @@
+package stack;
+
+
 class Pair{
     int min, max;
     public Pair(int min, int max){
