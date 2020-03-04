@@ -19,4 +19,22 @@ class Solution {
         
         return result;
     }
+
+    public int numberOfSubarrays(int[] A, int k, boolean flag) {
+        int result = 0, left = 0,  count = 0;
+        
+        for(int right = 0; right < A.length; right ++){
+            if(A[right] % 2 == 1){
+                k -= 1;
+                count = 0;
+            }
+            while(k == 0){
+                k += A[left++] % 2;
+                count += 1;
+            }
+            result += count;
+        }
+
+        return result;
+    }
 }
