@@ -33,4 +33,25 @@ class Solution {
         }
         return dummy.next;
     }
+
+    public ListNode removeZeroSumSublists(ListNode head) {
+        ListNode dummy = new ListNode(0), cur = dummy;
+        dummy.next = head;
+        int prefix = 0;
+        Map<Integer, ListNode> seen = new HashMap<>();
+        while(cur != null){
+            prefix += cur.val;
+            seen.put(prefix, cur);
+            cur = cur.next;
+        }
+        prefix = 0;
+        cur = dummy;
+        while(cur != null){
+            prefix += cur.val;
+            cur.next = seen.get(prefix).next;
+            cur = cur.next;
+        }
+
+        return dummy.next;
+    }
 }
