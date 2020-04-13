@@ -24,3 +24,17 @@ class Solution:
                 if prefix[i][j] - prefix[i - mid][j] - prefix[i][j - mid] + prefix[i - mid][j - mid] <= threshold:
                     return True
         return False
+
+    def maxSideLengthSlidingWindow(self, mat: List[List[int]], threshold: int) -> int:
+        m, n = len(mat), len(mat[0])
+        prefix = [[0 for i in range(n + 1)] for j in range(m + 1)]
+        result = 0
+        length = 1
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+                prefix[i][j] = prefix[i - 1][j] + prefix[i][j - 1] - prefix[i - 1][j - 1] + mat[i - 1][j - 1]
+                if i >= length and j >= length and \
+                    prefix[i][j] - prefix[i - length][j] - prefix[i][j - length] + prefix[i - length][j - length] <= threshold:
+                        result = length
+                        length += 1
+        return result
