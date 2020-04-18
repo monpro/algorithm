@@ -18,4 +18,22 @@ class Solution:
         self.result = max(self.result, (self.total - left) * left, (self.total - right) * right)
         
         return left + right + root.val
+    
+    def maxProduct(self, root: TreeNode) -> int:
+        totals = []
+
+        def getTotals(root):
+            if not root:
+                return 0
+            left = getTotals(root.left)
+            right = getTotals(root.right)
+            totals.append(left + right + root.val)
+            return left + right + root.val
+        
+        total = getTotals(root)
+        result = 0
+        for val in totals:
+            result = max(result, (total - val) * val)
+
+        return result % (10 ** 9 + 7)
         
