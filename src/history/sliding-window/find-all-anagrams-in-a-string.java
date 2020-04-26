@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
@@ -24,5 +23,37 @@ class Solution {
             
         }
         return result;
+    }
+    public List<Integer> findAnagramsHash(String str, String pattern) {
+        List<Integer> resultIndices = new ArrayList<Integer>();
+        Map<Character, Integer> visited = new HashMap<>();
+        for(char c: pattern.toCharArray()){
+          visited.put(c, visited.getOrDefault(c, 0) + 1);
+        }
+        int start = 0, match = 0;
+        char[] arr = str.toCharArray();
+        for(int end = 0; end < arr.length; end++){
+          if(visited.containsKey(arr[end])){
+            visited.put(arr[end], visited.get(arr[end]) - 1);
+            if(visited.get(arr[end]) == 0){
+              match += 1;
+            }
+          }
+
+          if(match == visited.size()){
+            resultIndices.add(start);
+          }
+
+          if(end >= pattern.length() - 1){
+            if(visited.containsKey(arr[start])){
+              if(visited.get(arr[start]) == 0){
+                match -= 1;
+              }
+              visited.put(arr[start], visited.get(arr[start]) + 1);
+            }
+            start += 1;
+          }
+        }
+        return resultIndices;
     }
 }
