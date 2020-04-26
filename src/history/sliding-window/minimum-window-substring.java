@@ -1,37 +1,39 @@
+import java.util.*;
+
 class Solution {
-    public String minWindow(String s, String t) {
-        Map<Character, Integer> map = new HashMap<>();
-        for(char c: s.toCharArray()){
-            map.put(c, 0);
+    public String minWindow(String str, String pattern) {
+        Map<Character, Integer> visited = new HashMap<>();
+        for(char c: pattern.toCharArray()){
+          visited.put(c, visited.getOrDefault(c, 0) + 1);
         }
-        for(char c: t.toCharArray()){
-            map.put(c, map.getOrDefault(c, 0) + 1);
-        }
-        
-        int left = 0, right = 0, count = t.length();
-        int maxVal = Integer.MAX_VALUE;
+
+        int start = 0, smallestLength = Integer.MAX_VALUE;
+        int match = 0;
         String result = "";
-        
-        while(right < s.length()){
-            if(map.get(s.charAt(right)) > 0)
-                count -= 1;
-            map.put(s.charAt(right), map.get(s.charAt(right)) - 1);
-            right += 1;
-            while(count == 0){
-                if(right - left < maxVal){
-                    maxVal = right - left;
-                    result = s.substring(left, right);
-                }
-                map.put(s.charAt(left), map.get(s.charAt(left)) + 1);
-                if(map.get(s.charAt(left)) > 0)
-                    count += 1;
-                left += 1;
+        char[] arr = str.toCharArray();
+        for(int end = 0; end < arr.length; end++){
+          if(visited.containsKey(arr[end])){
+            visited.put(arr[end],visited.get(arr[end]) - 1);
+            if(visited.get(arr[end]) == 0){
+              match += 1;
             }
-        }
-        if(maxVal == Integer.MAX_VALUE){
-            return "";
-        }else{
-            return result;
-        }
+          }
+
+          while(match == visited.size()){
+            if(end - start + 1 < smallestLength){
+              smallestLength = end - start + 1;
+              result = str.substring(start, end + 1);
+            }
+
+            if(visited.containsKey(arr[start])){
+              if(visited.get(arr[start]) == 0){
+                match -= 1;
+              }
+              visited.put(arr[start], visited.get(arr[start]) + 1);
+            }
+            start += 1;
+          }
+        } 
+        return result;
     }
 }
