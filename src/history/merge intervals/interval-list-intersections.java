@@ -33,3 +33,4 @@ class IntervalsIntersection {
 
     return intervalsIntersection.toArray(new Interval[intervalsIntersection.size()]);
   }
+}
