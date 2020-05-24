@@ -1,7 +1,6 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.PriorityQueue;
+package history.heap;
+
+import java.util.*;
 
 class Solution {
     public String frequencySort(String s) {
