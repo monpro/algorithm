@@ -2,7 +2,7 @@ package designs;
 
 import java.util.*;
 
-public class Codec {
+class Solution {
 
     // Encodes a URL to a shortened URL.
     Map<Integer, String> map = new HashMap<>();
