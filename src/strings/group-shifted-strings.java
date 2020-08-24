@@ -1,3 +1,7 @@
+package strings;
+
+import java.util.*;
+
 class Solution {
     public List<List<String>> groupStrings(String[] strings) {
         Map<String, List<String>> group = new HashMap<>();
